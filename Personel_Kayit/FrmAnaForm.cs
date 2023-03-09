@@ -16,7 +16,7 @@ namespace Personel_Kayit
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection(@"Data Source = DESKTOP-PP3S1OU\SQLEXPRESS; Initial Catalog = PersonelVeriTabani; Integrated Security = True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source = localhost; Initial Catalog = PersonelVeriTabani; Integrated Security = True");
 
         void Temizle()
         {
